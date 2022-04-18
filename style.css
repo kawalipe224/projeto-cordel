@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    padding: 45px;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'Passion One', cursive;
+    font-size: 3.0em;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-top: 5px;
+}
+
+#primeira{
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#primeira p:nth-child(2){
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#flores {
+    background: url(imagens/background001.jpg) no-repeat center right fixed;
+    font-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#flores div{
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 10px;
+}
+
+#poemas{
+    background: url(imagens/background002.jpg) center right fixed;
+    font-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#poemas div{
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+footer > p > a:hover{
+    color: rgba(250, 188, 19, 0.479);
+    text-decoration: underline;
+}
